@@ -1,0 +1,29 @@
+export default {
+  frontend: [
+    {icon: "fa-brands:html5", name: "HTML5"},
+    {icon: "ion:logo-css3", name: "CSS3"},
+    {icon: "ion:logo-javascript", name: "JavaScript"},
+    {icon: "fa-brands:react", name: "React.js"}
+  ],
+  backend: [
+    {icon: "simple-icons:nextdotjs", name: "Next.js"},
+    {icon: "fa-brands:node", name: "Node.js"},
+    {icon: "simple-icons:express", name: "Express.js"},
+    {icon: "fa-brands:java", name: "Java"},
+    {icon: "carbon:sql", name: "SQL"},
+    {icon: "bxl:postgresql", name: "PostgreSQL"},
+    {icon: "fontisto:mysql", name: "MySQL"},
+    {icon: "simple-icons:mongodb", name: "MongoDB"},
+    {icon: "simple-icons:neo4j", name: "Neo4j"}
+  ],
+  tools: [
+    {icon: "fa-brands:npm", name: "NPM"},
+    {icon: "cib:webpack", name: "Webpack"},
+    {icon: "fa-brands:git-alt", name: "Git"},
+    {icon: "ion:logo-github", name: "GitHub"},
+    {icon: "simple-icons:postman", name: "Postman"},
+    {icon: "simple-icons:insomnia", name: "Insomnia"},
+    {icon: "akar-icons:vercel-fill", name: "Vercel"},
+    {icon: "fa-solid:terminal", name: "Terminal"}
+  ]
+}

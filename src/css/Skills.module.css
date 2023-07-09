@@ -1,11 +1,11 @@
-.education_container {
+.skills_container {
   width: 100%;
   height: auto;
   position: relative;
   padding: 100px 0px;
 }
 
-.education_container_content {
+.skills_container_content {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.education_card {
+.skills_card {
   width: 80%;
   height: auto;
   padding-bottom: 2px;
@@ -34,46 +34,35 @@
   }
 }
 
-.education_card:last-child {
+.skills_card:last-child {
   margin-bottom: 0px;
 }
 
-.education_card div {
+.skills_card > div {
   width: 100%;
   height: 100%;
   padding: 20px 15px;
   background: var(--color-medium-dark);
 }
 
-.education_card .education_icon {
-  font-size: 25px;
-  color: var(--color-primary);
+.skills_card > div h3 {
+  font-size: var(--font-size-p-2);
 }
 
-.education_card div p {
-  margin-top: 10px;
-  font-size: var(--font-size-p-1);
+.skills_list {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 700px) {
-  .education_container_content {
-    flex-direction: row;
-  }
-
-  .education_card {
-    width: 200px;
-    height: 162px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-  }
-
-  .education_card:last-child {
-    margin-right: 0px;
+  .skills_card {
+    width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
-  .education_card {
-    width: 250px;
+  .skills_card {
+    width: 600px;
   }
 }

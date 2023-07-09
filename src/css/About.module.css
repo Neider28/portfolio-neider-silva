@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   position: relative;
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 
 .about_container_content {
@@ -38,6 +38,7 @@
   background-image: var(--color-linear-1);
   animation: color 3s linear infinite;
   background-size: 500%;
+  box-shadow: var(--shadow-high);
 }
 
 @keyframes color {

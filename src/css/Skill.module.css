@@ -1,0 +1,29 @@
+.skill_container {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_icon {
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+.skill_container p {
+  color: var(--color-light);
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+}
+
+.skill_container:hover p {
+  opacity: 50;
+}

@@ -7,8 +7,8 @@
   --color-secondary: #58DB00;
   --color-light: #FFFFFF;
   --color-low-dark: #222120;
-  --color-medium-dark: #161616;
-  --color-high-dark: #060606;
+  --color-medium-dark: #212121;
+  --color-high-dark: #171717;
 
   /* Linear Gradient */
 
@@ -16,7 +16,7 @@
 
   /* Shadows */
 
-  --shadow-high: 0px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  --shadow-high: 0px 4px 10px 4px rgba(0, 0, 0, 0.3);
   --shadow-low: 0px 4px 10px rgba(0, 0, 0, 0.2);
 
   /* Borders */
@@ -29,6 +29,7 @@
   --font-size-h1-2: 6rem;
   --font-size-h2-1: 2.2rem;
   --font-size-h3-1: 1.8rem;
+  --font-size-small: 1rem;
   --font-size-p-1: 1.1rem;
   --font-size-p-2: 1.2rem;
   --font-size-li-1: 1.6rem;
@@ -91,6 +92,10 @@ h2 {
   -webkit-background-clip: text;
   animation: color 3s linear infinite;
   background-size: 500%;
+}
+
+h3 {
+  font-size: var(--font-size-h3-1);
 }
 
 @media (min-width: 700px) {
