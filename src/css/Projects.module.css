@@ -1,0 +1,40 @@
+.projects_container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.projects_container_content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper_container {
+  width: 100%;
+  height: 360px;
+  padding: 2px 0;
+  position: relative;
+}
+
+.swiper_slide {
+  width: 240px;
+  height: 360px;
+  position: relative;
+}
+
+@media (min-width: 700px) {
+  .swiper_container {
+    width: 520px;
+    height: 400px;
+  }
+  
+  .swiper_slide {
+    width: 280px;
+    height: 400px;
+    position: relative;
+  }
+}
