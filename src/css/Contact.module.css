@@ -15,16 +15,22 @@
 }
 
 .contact_container_content a {
-  margin: 0px 20px;
+  margin: 0px 20px 60px 20px;
   text-decoration: none;
   color: var(--color-light);
   display: block;
   position: relative;
 }
 
+.contact_container_content a:last-child {
+  margin-bottom: 0px;
+}
+
 .contact_container_content a .contact_layer {
-  width: 55px;
-  height: 55px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 100px;
   transition: transform 0.3s;
 }
 
@@ -33,9 +39,7 @@
 }
 
 .contact_container_content a .contact_layer .contact_icon{
-  text-align: center;
-  font-size: 25px;
-  line-height: 55px;
+  font-size: 30px;
 }
 
 .contact_container_content a .contact_layer span {
@@ -74,12 +78,42 @@
 
 .contact_container_content a:nth-child(1) .contact_layer span,
 .contact_container_content a:nth-child(1) .contact_text {
-  color: #4267b2;
-  border-color: #4267b2;
+  color: #f5f5f5;
+  border-color: #f5f5f5;
 }
 
 .contact_container_content a:nth-child(1) .contact_layer span {
-  box-shadow: -1px 1px 3px #4267b2;
+  box-shadow: -1px 1px 3px #f5f5f5;
+}
+
+.contact_container_content a:nth-child(2) .contact_layer span,
+.contact_container_content a:nth-child(2) .contact_text {
+  color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+.contact_container_content a:nth-child(2) .contact_layer span {
+  box-shadow: -1px 1px 3px #1DA1F2;
+}
+
+.contact_container_content a:nth-child(3) .contact_layer span,
+.contact_container_content a:nth-child(3) .contact_text {
+  color: #0e76a8;
+  border-color: #0e76a8;
+}
+
+.contact_container_content a:nth-child(3) .contact_layer span {
+  box-shadow: -1px 1px 3px #0e76a8;
+}
+
+.contact_container_content a:nth-child(4) .contact_layer span,
+.contact_container_content a:nth-child(4) .contact_text {
+  color: #c71610;
+  border-color: #c71610;
+}
+
+.contact_container_content a:nth-child(4) .contact_layer span {
+  box-shadow: -1px 1px 3px #c71610;
 }
 
 .contact_container_content a:hover .contact_layer span:nth-child(1) {
@@ -87,6 +121,8 @@
 }
 
 .contact_container_content a .contact_text {
+  font-size: var(--font-size-p-1);
+  font-weight: 600;
   position: absolute;
   left: 50%;
   bottom: -5px;
@@ -96,6 +132,19 @@
 }
 
 .contact_container_content a:hover .contact_text {
-  bottom: -35px;
+  bottom: -40px;
   opacity: 1;
+}
+
+@media (min-width: 700px) {
+  .contact_container_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact_container_content a {
+    margin: 0px 25px;
+  }
 }

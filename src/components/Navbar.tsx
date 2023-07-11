@@ -1,14 +1,25 @@
 "use client"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import logo from '@/public/logo.png'
 import styles from '@/css/Navbar.module.css'
 
 export default function Navbar() {
   const [clicked, setClicked] = useState(false);
+  const [background, setBackground] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        setBackground(true);
+      } else {
+        setBackground(false);
+      }
+    });
+  }, []);
 
   return (
-    <header className={styles.nav_bar}>
+    <header className={`${styles.nav_bar} ${background && `${styles.background_dark}`}`}>
       <button className={styles.nav_bar_logo}>
         <Image 
           src={logo} 

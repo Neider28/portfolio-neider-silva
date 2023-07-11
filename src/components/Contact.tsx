@@ -8,15 +8,45 @@ export default function Contact() {
     <section className={styles.contact_container}>
       <h2>Contact</h2>
       <div className={styles.contact_container_content}>
-        <a href='https://github.com/Neider28'>
+        <a href='https://github.com/Neider28' target='_blank'>
           <div className={styles.contact_layer}>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            <span><Icon icon="ri:github-fill" className={styles.contact_icon} /></span>
+            <span><Icon icon="bytesize:github" className={styles.contact_icon} /></span>
           </div>
           <div className={styles.contact_text}>GitHub</div>
+        </a>
+        <a href='https://twitter.com/neiders28' target='_blank'>
+          <div className={styles.contact_layer}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span><Icon icon="bi:twitter" className={styles.contact_icon} /></span>
+          </div>
+          <div className={styles.contact_text}>Twitter</div>
+        </a>
+        <a href='https://www.linkedin.com/in/neidersilva28/' target='_blank'>
+          <div className={styles.contact_layer}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span><Icon icon="bi:linkedin" className={styles.contact_icon} /></span>
+          </div>
+          <div className={styles.contact_text}>Linkedin</div>
+        </a>
+        <a href='mailto:neidersilva2802@gmail.com' target='_blank'>
+          <div className={styles.contact_layer}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span><Icon icon="basil:gmail-solid" className={styles.contact_icon} /></span>
+          </div>
+          <div className={styles.contact_text}>Gmail</div>
         </a>
       </div>
     </section>

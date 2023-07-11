@@ -10,6 +10,13 @@
   top: 0;
   left: 0;
   z-index: 2;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in;
+}
+
+.nav_bar.background_dark {
+  background-color: rgba(22, 22, 22, 0.9);
+  backdrop-filter: blur(10px);
 }
 
 .nav_bar_logo {
