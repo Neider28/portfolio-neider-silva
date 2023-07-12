@@ -30,14 +30,11 @@ export default function Navbar() {
           priority={true} 
         />
       </button>
-      <button className={styles.nav_bar_mobile} onClick={() => setOpen(!open)}>
+      <button className={`${styles.nav_bar_mobile} ${open && `${styles.open}`}`} onClick={() => setOpen(!open)}>
         <span></span>
       </button>
       <nav className={`${styles.nav_bar_items} ${!open && `${styles.active}`}`}>
         <ul>
-          <li onClick={() => setOpen(!open)}>
-            <Icon icon='ep:close-bold' className={styles.nav_bar_close} />
-          </li>
           <li>About</li>
           <li>Education</li>
           <li>Experience</li>

@@ -38,6 +38,7 @@
   border: none;
   background: transparent;
   cursor: pointer;
+  transition: all .5s ease-in-out;
 }
 
 .nav_bar_mobile span {
@@ -45,6 +46,7 @@
   height: 4px;
   background: #fff;
   border-radius: 5px;
+  transition: all .5s ease-in-out;
 }
 
 .nav_bar_mobile span::before,
@@ -56,6 +58,7 @@
   height: 4px;
   background: #fff;
   border-radius: 5px;
+  transition: all .4s ease-in-out;
 }
 
 .nav_bar_mobile span::before {
@@ -66,12 +69,26 @@
   transform: translateY(12px);
 }
 
+.nav_bar_mobile.open span {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.nav_bar_mobile.open span::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.nav_bar_mobile.open span::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
 .nav_bar_items {
   width: 100%;
   height: 100vh;
   padding-left: 5px;
   position: absolute;
-  top: 0px;
+  top: 75px;
   right: 0px;
   display: flex;
   align-items: flex-start;
@@ -80,10 +97,6 @@
   background-size: 500%;
   box-shadow: var(--shadow-high);
   animation: color 3s linear infinite, swipeLeft 0.5s ease;
-}
-
-.nav_bar_items .nav_bar_close {
-  font-size: 35px;
 }
 
 @keyframes color {
