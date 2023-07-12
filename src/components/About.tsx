@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
 import styles from '@/css/About.module.css'
 
 export default function About() {
