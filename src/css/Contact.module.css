@@ -136,6 +136,13 @@
   opacity: 1;
 }
 
+.contact_container_image {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+}
+
 @media (min-width: 700px) {
   .contact_container_content {
     display: flex;
@@ -146,5 +153,10 @@
   
   .contact_container_content a {
     margin: 0px 25px;
+  }
+
+  .contact_container_image {
+    width: 350px;
+    height: 350px;
   }
 }

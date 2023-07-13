@@ -1,11 +1,11 @@
 "use client"
-import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal'
 import { Icon } from '@iconify/react'
 import styles from '@/css/About.module.css'
 
 export default function About() {
   return (
-    <section className={styles.about_container}>
+    <section className={styles.about_container} id='about'>
       <h2>About</h2>
       <div className={styles.about_container_content}>
         <p>
@@ -14,6 +14,7 @@ export default function About() {
           I am passionate about cars, I really like sports cars and I would like to compete in circuit races. 
           I love to exercise, especially calisthenics.
         </p>
+        <Fade direction='up'>
         <div className={styles.about_container_content_icons}>
           <div className={styles.icon_item}>
             <div>
@@ -31,6 +32,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
     </section>
   )

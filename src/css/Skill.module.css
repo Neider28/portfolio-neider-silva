@@ -12,6 +12,7 @@
   margin-bottom: 10px;
   font-size: 40px;
   color: var(--color-primary);
+  transition: .5s;
 }
 
 .skill_container p {
@@ -26,4 +27,9 @@
 
 .skill_container:hover p {
   opacity: 50;
+}
+
+.skill_container:hover .skill_icon {
+  color: #fff;
+  transform: rotateY(360deg);
 }

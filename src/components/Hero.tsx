@@ -1,11 +1,13 @@
 "use client"
 import Image from 'next/image'
+import { Slide } from 'react-awesome-reveal'
 import welcome from '@/public/assets/hero/welcome.png'
 import styles from '@/css/Hero.module.css'
 
 export default function Hero() {
   return (
-    <section className={styles.hero_container}>
+    <section className={styles.hero_container} id='hero'>
+      <Slide direction='down'>
       <div className={styles.hero_container_title}>
         <h1>Hi, I´m Neider</h1>
         <div>
@@ -15,6 +17,7 @@ export default function Hero() {
           <span className={styles.i_4}>Developer</span>
         </div>
       </div>
+      </Slide>
       <div className={styles.hero_container_image}>
         <Image 
           src={welcome} 

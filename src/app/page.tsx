@@ -1,4 +1,6 @@
-import Image from 'next/image'
+"use client"
+import { useState, useEffect } from 'react'
+import Loading from '@/components/Loading'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
@@ -11,17 +13,29 @@ import Footer from '@/components/Footer'
 import styles from './page.module.css'
 
 export default function Home() {
+  const [load, setLoad] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoad(!load);
+    }, 3000);
+  }, []);
+
   return (
-    <main className={styles.main}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Education />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </main>
+    <>
+      {!load ? (<Loading />) : (
+        <main className={styles.main}>
+          <Navbar />
+          <Hero />
+          <About />
+          <Education />
+          <Experience />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>)
+      }
+    </>
   )
 }

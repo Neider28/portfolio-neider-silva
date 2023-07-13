@@ -1,6 +1,4 @@
 "use client"
-import Image from 'next/image'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
@@ -14,7 +12,7 @@ import styles from '@/css/Projects.module.css'
 
 export default function Projects() {
   return (
-    <section className={styles.projects_container}>
+    <section className={styles.projects_container} id='projects'>
       <h2>Projects</h2>
       <div className={styles.projects_container_content}>
         <Swiper

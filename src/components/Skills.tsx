@@ -1,13 +1,11 @@
 "use client"
-import Image from 'next/image'
-import { Icon } from '@iconify/react'
 import skills from '../data/skills'
 import Skill from './Skill'
 import styles from '@/css/Skills.module.css'
 
 export default function Skills() {
   return (
-    <section className={styles.skills_container}>
+    <section className={styles.skills_container} id='skills'>
       <h2>Skills</h2>
       <div className={styles.skills_container_content}>
         <article className={styles.skills_card}>

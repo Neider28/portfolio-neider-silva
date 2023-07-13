@@ -1,11 +1,12 @@
 "use client"
 import Image from 'next/image'
-import { Icon } from '@iconify/react';
+import { Fade } from 'react-awesome-reveal'
+import rolls_royce from '@/assets/experience/rolls-royce-3.png'
 import styles from '@/css/Experience.module.css'
 
 export default function Experience() {
   return (
-    <section className={styles.experience_container}>
+    <section className={styles.experience_container} id='experience'>
       <h2>Experience</h2>
       <div className={styles.experience_container_content}>
         <article className={styles.experience_card}>
@@ -17,6 +18,17 @@ export default function Experience() {
           </div>
         </article>
       </div>
+      <Fade direction='left'>
+      <div className={styles.experience_container_image}>
+        <Image 
+          src={rolls_royce} 
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+          alt='welcome' 
+          fill 
+          priority={true} 
+        />
+      </div>
+      </Fade>
     </section>
   )
 }

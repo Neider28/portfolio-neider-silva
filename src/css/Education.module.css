@@ -3,6 +3,10 @@
   height: auto;
   position: relative;
   padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .education_container_content {
@@ -55,6 +59,12 @@
   font-size: var(--font-size-p-1);
 }
 
+.education_container_image {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
 @media (min-width: 700px) {
   .education_container_content {
     flex-direction: row;
@@ -69,6 +79,11 @@
 
   .education_card:last-child {
     margin-right: 0px;
+  }
+
+  .education_container_image {
+    width: 350px;
+    height: 350px;
   }
 }
 

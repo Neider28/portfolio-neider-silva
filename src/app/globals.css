@@ -105,3 +105,8 @@ h3 {
     font-size: var(--font-size-h1-2);
   }
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-light);
+}

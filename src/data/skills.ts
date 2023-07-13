@@ -9,6 +9,7 @@ export default {
     {icon: "simple-icons:nextdotjs", name: "Next.js"},
     {icon: "fa-brands:node", name: "Node.js"},
     {icon: "simple-icons:express", name: "Express.js"},
+    {icon: "simple-icons:strapi", name: "Strapi"},
     {icon: "fa-brands:java", name: "Java"},
     {icon: "carbon:sql", name: "SQL"},
     {icon: "bxl:postgresql", name: "PostgreSQL"},

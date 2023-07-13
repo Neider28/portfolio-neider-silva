@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import { Icon } from '@iconify/react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import logo from '@/public/logo.png'
 import styles from '@/css/Navbar.module.css'
 
@@ -21,26 +21,28 @@ export default function Navbar() {
 
   return (
     <header className={`${styles.nav_bar} ${background && `${styles.background_dark}`}`}>
-      <button className={styles.nav_bar_logo}>
-        <Image 
-          src={logo} 
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-          alt='logo' 
-          fill 
-          priority={true} 
-        />
-      </button>
+      <AnchorLink href='#hero'>
+        <button className={styles.nav_bar_logo}>
+          <Image 
+            src={logo} 
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+            alt='logo' 
+            fill 
+            priority={true} 
+          />
+        </button>
+      </AnchorLink>
       <button className={`${styles.nav_bar_mobile} ${open && `${styles.open}`}`} onClick={() => setOpen(!open)}>
         <span></span>
       </button>
       <nav className={`${styles.nav_bar_items} ${!open && `${styles.active}`}`}>
         <ul>
-          <li>About</li>
-          <li>Education</li>
-          <li>Experience</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact me</li>
+          <li><AnchorLink href='#about'>About</AnchorLink></li>
+          <li><AnchorLink href='#education'>Education</AnchorLink></li>
+          <li><AnchorLink href='#experience'>Experience</AnchorLink></li>
+          <li><AnchorLink href='#skills'>Skills</AnchorLink></li>
+          <li><AnchorLink href='#projects'>Projects</AnchorLink></li>
+          <li><AnchorLink href='#contact'>Contact me</AnchorLink></li>
         </ul>
       </nav>
     </header>

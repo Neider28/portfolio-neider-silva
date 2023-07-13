@@ -58,18 +58,24 @@
   margin-top: 10px;
 }
 
+.experience_container_image {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+}
+
 @media (min-width: 700px) {
   .experience_container_content {
     flex-direction: row;
   }
 
   .experience_card {
-    width: 200px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .experience_card {
     width: 250px;
+  }
+
+  .experience_container_image {
+    width: 350px;
+    height: 350px;
   }
 }
