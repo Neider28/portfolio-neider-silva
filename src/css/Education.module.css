@@ -57,6 +57,7 @@
 .education_card div p {
   margin-top: 10px;
   font-size: var(--font-size-p-1);
+  color: var(--color-light);
 }
 
 .education_container_image {

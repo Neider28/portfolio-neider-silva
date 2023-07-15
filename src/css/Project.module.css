@@ -41,6 +41,7 @@
 
 .project_content p {
   font-size: var(--font-size-small);
+  color: var(--color-light);
 }
 
 .project_content p:nth-child(3) {

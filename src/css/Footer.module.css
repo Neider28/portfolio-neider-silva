@@ -90,6 +90,7 @@
 .footer div p {
   margin-top: 10px;
   font-size: var(--font-size-p-1);
+  color: var(--color-light);
 }
 
 .footer_content .colombia_icon {
@@ -100,6 +101,7 @@
   margin-top: 40px;
   text-align: center;
   font-size: var(--font-size-p-1);
+  color: var(--color-light);
 }
 
 @media (min-width: 700px) {
