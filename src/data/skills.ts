@@ -1,14 +1,17 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   frontend: [
     {icon: "fa-brands:html5", name: "HTML5"},
     {icon: "ion:logo-css3", name: "CSS3"},
     {icon: "ion:logo-javascript", name: "JavaScript"},
-    {icon: "fa-brands:react", name: "React.js"}
+    {icon: "fa-brands:react", name: "React.js"},
+    {icon: "simple-icons:nextdotjs", name: "Next.js"},
+    {icon: "akar-icons:angular-fill", name: "AngularJS"}
   ],
   backend: [
-    {icon: "simple-icons:nextdotjs", name: "Next.js"},
     {icon: "fa-brands:node", name: "Node.js"},
     {icon: "simple-icons:express", name: "Express.js"},
+    {icon: "simple-icons:nestjs", name: "Nest.js"},
     {icon: "simple-icons:strapi", name: "Strapi"},
     {icon: "fa-brands:java", name: "Java"},
     {icon: "carbon:sql", name: "SQL"},
