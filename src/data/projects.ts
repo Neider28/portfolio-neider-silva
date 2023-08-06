@@ -1,8 +1,16 @@
 export default {
   projects: [
     {
+      name: 'Weather App', 
+      description: 'Explore in detail the climate of different parts of the world.', 
+      link: 'https://weather-app-neidersilva.vercel.app/', 
+      repo: 'https://github.com/Neider28/weather-app', 
+      img: 'https://i.postimg.cc/W3s9Szrw/weather-app-neidersilva-vercel-app.png', 
+      skills: ['AngularJS', 'TypeScript', 'CSS3']
+    },
+    {
       name: 'Image Uploader', 
-      description: 'An Image Uploader application. By devChallenges.', 
+      description: 'An Image Uploader application.', 
       link: 'https://image-uploader-pink.vercel.app/', 
       repo: 'https://github.com/Neider28/image-uploader', 
       img: 'https://i.postimg.cc/Dw373sdp/image-uploader.png', 
