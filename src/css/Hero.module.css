@@ -129,12 +129,8 @@
 }
 
 @media (min-width: 1024px) {
-  .hero_container {
-    min-height: 100vh;
-  }
-
   .hero_container_image {
-    position: absolute;
-    bottom: 0;
+    width: 350px;
+    height: 350px;
   }
 }
