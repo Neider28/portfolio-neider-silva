@@ -9,6 +9,14 @@ export default {
       skills: ['AngularJS', 'TypeScript', 'CSS3']
     },
     {
+      name: 'CatWiki', 
+      description: 'Learn more about cat breeds and check out an amazing collection of cat photos.', 
+      link: 'https://catwiki-sand.vercel.app/', 
+      repo: 'https://github.com/Neider28/catwiki', 
+      img: 'https://i.postimg.cc/G2R7C4PL/catwiki.png', 
+      skills: ['AngularJS', 'TypeScript', 'CSS3', 'Nest.js']
+    },
+    {
       name: 'Image Uploader', 
       description: 'An Image Uploader application.', 
       link: 'https://image-uploader-pink.vercel.app/', 
