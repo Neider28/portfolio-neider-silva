@@ -41,20 +41,12 @@ export default {
       skills: ['React.js', 'CSS3']
     },
     {
-      name: 'Yard Sale', 
-      description: `E-commerce of products obtained from the API of the Platzi JavaScript school.`, 
-      link: 'https://yard-sale-alpha.vercel.app/', 
-      repo: 'https://github.com/Neider28/Yard_Sale', 
-      img: 'https://i.postimg.cc/1RkYjGD8/project3.png', 
-      skills: ['Next.js', 'React.js', 'CSS3']
-    },
-    {
       name: 'Auteco Mobility', 
       description: `Auteco motorcycle website, where you can see the available catalog of all motorcycles.`, 
       link: 'https://auteco-mobility-sas.web.app/', 
       repo: 'https://github.com/Neider28/auteco-mobility', 
       img: 'https://i.postimg.cc/2jZ0h1gr/project4.png', 
       skills: ['React.js', 'CSS3']
-    },
+    }
   ]
 }
