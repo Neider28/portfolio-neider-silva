@@ -27,10 +27,10 @@ export default {
     {
       name: 'Movie Express', 
       description: `A small movie search engine based on TheMovieDB API.`, 
-      link: 'https://neider28.github.io/MovieExpress/#home', 
-      repo: 'https://github.com/Neider28/MovieExpress', 
-      img: 'https://i.postimg.cc/FKf8sZM8/movieexpress.png', 
-      skills: ['HTML5', 'CSS3', 'JavaScript']
+      link: 'https://movie-express-sand.vercel.app/', 
+      repo: 'https://github.com/Neider28/movie-express', 
+      img: 'https://i.postimg.cc/85rXNPKH/movie-express.png', 
+      skills: ['AngularJS', 'TypeScript', 'CSS3']
     },
     {
       name: 'Ninja ToDo', 
