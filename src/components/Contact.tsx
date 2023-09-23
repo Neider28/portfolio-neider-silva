@@ -26,7 +26,7 @@ export default function Contact() {
             <span></span>
             <span></span>
             <span></span>
-            <span><Icon icon="bi:twitter" className={styles.contact_icon} /></span>
+            <span><Icon icon="line-md:twitter-x" className={styles.contact_icon} /></span>
           </div>
           <div className={styles.contact_text}>Twitter</div>
         </a>

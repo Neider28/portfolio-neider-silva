@@ -197,6 +197,10 @@
 }
 
 @media (min-width: 1024px) {
+  .nav_bar {
+    justify-content: space-around;
+  }
+
   .nav_bar_mobile {
     display: none;
   }

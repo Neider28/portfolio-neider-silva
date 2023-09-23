@@ -15,6 +15,8 @@ export default {
     {icon: "simple-icons:nestjs", name: "Nest.js"},
     {icon: "simple-icons:strapi", name: "Strapi"},
     {icon: "fa-brands:java", name: "Java"},
+    {icon: "simple-icons:rabbitmq", name: "RabbitMQ"},
+    {icon: "carbon:microservices-2", name: "Microservices"},
     {icon: "carbon:sql", name: "SQL"},
     {icon: "bxl:postgresql", name: "PostgreSQL"},
     {icon: "fontisto:mysql", name: "MySQL"},
@@ -28,7 +30,9 @@ export default {
     {icon: "ion:logo-github", name: "GitHub"},
     {icon: "simple-icons:postman", name: "Postman"},
     {icon: "simple-icons:insomnia", name: "Insomnia"},
+    {icon: "fa6-brands:docker", name: "Docker"},
     {icon: "akar-icons:vercel-fill", name: "Vercel"},
+    {icon: "fa6-brands:aws", name: "AWS"},
     {icon: "fa-solid:terminal", name: "Terminal"}
   ]
 }

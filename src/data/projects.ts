@@ -40,13 +40,5 @@ export default {
       img: 'https://i.postimg.cc/kGTzj5Xq/ninja-to-do-main.png', 
       skills: ['React.js', 'CSS3']
     },
-    {
-      name: 'Auteco Mobility', 
-      description: `Auteco motorcycle website, where you can see the available catalog of all motorcycles.`, 
-      link: 'https://auteco-mobility-sas.web.app/', 
-      repo: 'https://github.com/Neider28/auteco-mobility', 
-      img: 'https://i.postimg.cc/2jZ0h1gr/project4.png', 
-      skills: ['React.js', 'CSS3']
-    }
   ]
 }

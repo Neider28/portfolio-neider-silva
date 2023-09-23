@@ -18,8 +18,8 @@ export default function Education() {
         </article>
         <article className={styles.education_card}>
           <div>
-            <Icon icon="simple-icons:platzi" className={styles.education_icon} />
-            <p>I have taken several programming courses at Platzi.</p>
+            <Icon icon="zondicons:trophy" className={styles.education_icon} />
+            <p>I have taken several programming courses at Platzi and Udemy.</p>
           </div>
         </article>
         <article className={styles.education_card}>
