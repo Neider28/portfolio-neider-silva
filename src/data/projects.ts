@@ -42,7 +42,7 @@ export default {
     },
     {
       name: 'Ninja ToDo', 
-      description: `Abasic web application that allows you to create your own to-do list.`, 
+      description: `A basic web application that allows you to create your own to-do list.`, 
       link: 'https://ninja-to-do-8f246.web.app/', 
       repo: 'https://github.com/Neider28/ninja-to-do', 
       img: 'https://i.postimg.cc/kGTzj5Xq/ninja-to-do-main.png', 
