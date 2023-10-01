@@ -25,6 +25,14 @@ export default {
       skills: ['Next.js', 'React.js', 'CSS3', 'Node.js', 'Express.js']
     },
     {
+      name: 'QRCode', 
+      description: 'A simple QA quote generator application.', 
+      link: 'https://qrcode-neider28.vercel.app/', 
+      repo: 'https://github.com/Neider28/qrcode', 
+      img: 'https://i.postimg.cc/Yqv8xQkd/qrcode-neider28-vercel-app.png', 
+      skills: ['Next.js', 'React.js', 'CSS3']
+    },
+    {
       name: 'Movie Express', 
       description: `A small movie search engine based on TheMovieDB API.`, 
       link: 'https://movie-express-sand.vercel.app/', 
