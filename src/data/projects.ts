@@ -33,6 +33,14 @@ export default {
       skills: ['Next.js', 'React.js', 'CSS3']
     },
     {
+      name: 'Authentication App', 
+      description: 'This app provides users with the ability to register, login, and manage their profiles securely.', 
+      link: 'https://authentication-app-eta.vercel.app/', 
+      repo: 'https://github.com/Neider28/authentication-app', 
+      img: 'https://i.postimg.cc/j2YYm1hz/authentication-app-eta-vercel-app.png', 
+      skills: ['Next.js', 'React.js', 'CSS3', 'Nest.js', 'PostgreSQL', 'Passport.js']
+    },
+    {
       name: 'Movie Express', 
       description: `A small movie search engine based on TheMovieDB API.`, 
       link: 'https://movie-express-sand.vercel.app/', 

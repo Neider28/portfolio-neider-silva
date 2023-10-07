@@ -12,7 +12,7 @@
 
 .project_content {
   width: 100%;
-  height: 40%;
+  height: 45%;
   padding: 15px;
   position: relative;
 }
@@ -71,7 +71,11 @@
 }
 
 .project_content_links .project_icon {
-  font-size: 25px;
+  font-size: 26px;
+}
+
+.project_icon:hover {
+  color: var(--color-primary);
 }
 
 @media (min-width: 700px) {
@@ -82,15 +86,15 @@
 
   .project_content {
     width: 100%;
-    height: 37.5%;
+    height: 41%;
   }
 
   .project_content_links {
     width: 100%;
-    height: 12.5%;
+    height: 15%;
   }
   
   .project_content_links .project_icon {
-    font-size: 25px;
+    font-size: 30px;
   }
 }

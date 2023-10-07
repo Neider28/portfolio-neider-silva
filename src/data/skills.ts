@@ -13,6 +13,7 @@ export default {
     {icon: "fa-brands:node", name: "Node.js"},
     {icon: "simple-icons:express", name: "Express.js"},
     {icon: "simple-icons:nestjs", name: "Nest.js"},
+    {icon: "simple-icons:passport", name: "Passport.js"},
     {icon: "simple-icons:strapi", name: "Strapi"},
     {icon: "fa-brands:java", name: "Java"},
     {icon: "simple-icons:rabbitmq", name: "RabbitMQ"},
