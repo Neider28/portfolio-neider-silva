@@ -7,7 +7,8 @@ export default {
     {icon: "akar-icons:typescript-fill", name: "TypeScript"},
     {icon: "fa-brands:react", name: "React.js"},
     {icon: "simple-icons:nextdotjs", name: "Next.js"},
-    {icon: "akar-icons:angular-fill", name: "AngularJS"}
+    {icon: "akar-icons:angular-fill", name: "AngularJS"},
+    {icon: "fa:wordpress", name: "WordPress"},
   ],
   backend: [
     {icon: "fa-brands:node", name: "Node.js"},
