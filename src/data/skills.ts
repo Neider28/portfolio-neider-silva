@@ -3,6 +3,7 @@ export default {
   frontend: [
     {icon: "fa-brands:html5", name: "HTML5"},
     {icon: "ion:logo-css3", name: "CSS3"},
+    {icon: "file-icons:tailwind", name: "Tailwind"},
     {icon: "akar-icons:javascript-fill", name: "JavaScript"},
     {icon: "akar-icons:typescript-fill", name: "TypeScript"},
     {icon: "fa-brands:react", name: "React.js"},

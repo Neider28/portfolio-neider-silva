@@ -14,7 +14,7 @@ export default function Experience() {
             <h3>Rock Did It</h3>
             <span>2023, May - Present</span>
             <span>Full Time Remote</span>
-            <p>Back-end Web Developer</p>
+            <p>Full Stack Web Developer</p>
           </div>
         </article>
       </div>
