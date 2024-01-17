@@ -9,6 +9,7 @@
 .experience_container_content {
   margin-top: 50px;
   display: flex;
+  gap: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -70,6 +71,7 @@
 @media (min-width: 700px) {
   .experience_container_content {
     flex-direction: row;
+    gap: 20px;
   }
 
   .experience_card {
