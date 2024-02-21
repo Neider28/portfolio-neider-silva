@@ -38,7 +38,7 @@ export default function Contact() {
             <span></span>
             <span><Icon icon="bi:linkedin" className={styles.contact_icon} /></span>
           </div>
-          <div className={styles.contact_text}>Linkedin</div>
+          <div className={styles.contact_text}>LinkedIn</div>
         </a>
         <a href='mailto:neidersilva2802@gmail.com' target='_blank'>
           <div className={styles.contact_layer}>
