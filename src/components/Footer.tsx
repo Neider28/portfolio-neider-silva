@@ -16,7 +16,7 @@ export default function Footer() {
           <p><Icon icon={'twemoji:flag-colombia'} className={styles.colombia_icon} /></p>
         </div>
       </div>
-      <p>© Copyright 2023. Made by Neider Silva</p>
+      <p>© Copyright 2024. Made by Neider Silva</p>
     </footer>
   )
 }

@@ -28,7 +28,7 @@ export default function Contact() {
             <span></span>
             <span><Icon icon="line-md:twitter-x" className={styles.contact_icon} /></span>
           </div>
-          <div className={styles.contact_text}>Twitter</div>
+          <div className={styles.contact_text}>X</div>
         </a>
         <a href='https://www.linkedin.com/in/neidersilva28/' target='_blank'>
           <div className={styles.contact_layer}>
