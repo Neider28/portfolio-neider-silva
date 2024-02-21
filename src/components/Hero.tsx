@@ -13,8 +13,7 @@ export default function Hero() {
         <div>
           <span className={styles.i_1}>Full</span>
           <span className={styles.i_2}>Stack</span>
-          <span className={styles.i_3}>Web</span>
-          <span className={styles.i_4}>Developer</span>
+          <span className={styles.i_3}>Developer</span>
         </div>
       </div>
       </Slide>

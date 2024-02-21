@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.footer_content}>
         <div>
           <h2>Neider Silva</h2>
-          <p>A passionate Full Stack Web Developer who loves technology and learning every day.</p>
+          <p>A passionate Full Stack Developer who loves technology and learning every day.</p>
         </div>
         <div>
           <h2>From Colombia</h2>

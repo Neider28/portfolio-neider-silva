@@ -14,7 +14,7 @@ export default function Experience() {
             <h3>Whynot? mih</h3>
             <span>2023, Dec - 2024, Feb</span>
             <span>Full Time Remote</span>
-            <p>Full Stack Web Developer</p>
+            <p>Full Stack Developer</p>
           </div>
         </article>
         <article className={styles.experience_card}>
@@ -22,7 +22,7 @@ export default function Experience() {
             <h3>Rock Did It</h3>
             <span>2023, Jun - 2023, Dec</span>
             <span>Full Time Remote</span>
-            <p>Full Stack Web Developer</p>
+            <p>Full Stack Developer</p>
           </div>
         </article>
       </div>
