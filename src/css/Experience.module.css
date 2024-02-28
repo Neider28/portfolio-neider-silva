@@ -4,6 +4,9 @@
   position: relative;
   padding: 100px 0px;
   background-image: url('../../public/assets/background-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .experience_container_content {
@@ -69,11 +72,6 @@
 }
 
 @media (min-width: 700px) {
-  .experience_container_content {
-    flex-direction: row;
-    gap: 20px;
-  }
-
   .experience_card {
     width: 250px;
   }
@@ -81,5 +79,12 @@
   .experience_container_image {
     width: 350px;
     height: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .experience_container_content {
+    flex-direction: row;
+    gap: 20px;
   }
 }

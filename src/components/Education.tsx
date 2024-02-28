@@ -30,15 +30,15 @@ export default function Education() {
         </article>
       </div>
       <Fade direction='right'>
-      <div className={styles.education_container_image}>
-        <Image 
-          src={rolls_royce} 
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-          alt='welcome' 
-          fill 
-          priority={true} 
-        />
-      </div>
+        <div className={styles.education_container_image}>
+          <Image 
+            src={rolls_royce} 
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+            alt='welcome' 
+            fill 
+            priority={true} 
+          />
+        </div>
       </Fade>
     </section>
   )

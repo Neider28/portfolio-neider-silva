@@ -10,7 +10,7 @@ export default function Skills() {
       <div className={styles.skills_container_content}>
         <article className={styles.skills_card}>
           <div>
-            <h3>Front-end</h3>
+            <h3>Frontend</h3>
             <div className={styles.skills_list}>
               {
                 skills.frontend.map(item => 
@@ -22,7 +22,7 @@ export default function Skills() {
         </article>
         <article className={styles.skills_card}>
           <div>
-            <h3>Back-end</h3>
+            <h3>Backend</h3>
             <div className={styles.skills_list}>
               {
                 skills.backend.map(item => 

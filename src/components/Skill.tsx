@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Image from 'next/image'
 import { Icon } from '@iconify/react'
 import styles from '@/css/Skill.module.css'
 

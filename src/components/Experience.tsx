@@ -25,6 +25,14 @@ export default function Experience() {
             <p>Full Stack Developer</p>
           </div>
         </article>
+        <article className={styles.experience_card}>
+          <div>
+            <h3>Chain The Barber</h3>
+            <span>2022, Oct - 2023, Jun</span>
+            <span>Part Time Remote</span>
+            <p>Frontend Developer</p>
+          </div>
+        </article>
       </div>
       <Fade direction='left'>
       <div className={styles.experience_container_image}>

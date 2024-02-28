@@ -6,6 +6,7 @@ export default {
     {icon: "file-icons:tailwind", name: "Tailwind"},
     {icon: "akar-icons:javascript-fill", name: "JavaScript"},
     {icon: "akar-icons:typescript-fill", name: "TypeScript"},
+    {icon: "file-icons:vite", name: "Vite"},
     {icon: "fa-brands:react", name: "React.js"},
     {icon: "simple-icons:nextdotjs", name: "Next.js"},
     {icon: "akar-icons:angular-fill", name: "AngularJS"},

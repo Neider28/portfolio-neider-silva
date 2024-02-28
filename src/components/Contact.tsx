@@ -52,15 +52,15 @@ export default function Contact() {
         </a>
       </div>
       <Fade direction='left'>
-      <div className={styles.contact_container_image}>
-        <Image 
-          src={rolls_royce} 
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-          alt='welcome' 
-          fill 
-          priority={true} 
-        />
-      </div>
+        <div className={styles.contact_container_image}>
+          <Image 
+            src={rolls_royce} 
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+            alt='welcome' 
+            fill 
+            priority={true} 
+          />
+        </div>
       </Fade>
     </section>
   )
