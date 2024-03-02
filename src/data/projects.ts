@@ -33,6 +33,14 @@ export default {
       skills: ['Next.js', 'React.js', 'CSS3']
     },
     {
+      name: 'NoteCode', 
+      description: 'The application allows users to store and share coding snippets.', 
+      link: 'https://note-code-app.vercel.app/', 
+      repo: 'https://github.com/Neider28/note-code', 
+      img: 'https://i.postimg.cc/s27VwMNh/note-code-app-vercel-app.png', 
+      skills: ['Next.js', 'React.js', 'Tailwind', 'MongoDB']
+    },
+    {
       name: 'Authentication App', 
       description: 'This app provides users with the ability to register, login, and manage their profiles securely.', 
       link: 'https://authentication-app-eta.vercel.app/', 
