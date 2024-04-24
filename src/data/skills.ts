@@ -9,7 +9,7 @@ export default {
     {icon: "file-icons:vite", name: "Vite"},
     {icon: "fa-brands:react", name: "React.js"},
     {icon: "simple-icons:nextdotjs", name: "Next.js"},
-    {icon: "akar-icons:angular-fill", name: "AngularJS"},
+    {icon: "simple-icons:angular", name: "Angular"},
     {icon: "fa:wordpress", name: "WordPress"},
   ],
   backend: [

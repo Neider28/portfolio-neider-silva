@@ -11,6 +11,14 @@ export default function Experience() {
       <div className={styles.experience_container_content}>
         <article className={styles.experience_card}>
           <div>
+            <h3>Noysi</h3>
+            <span>2024, Mar - 2024, Apr</span>
+            <span>Full Time Remote</span>
+            <p>Frontend Developer</p>
+          </div>
+        </article>
+        <article className={styles.experience_card}>
+          <div>
             <h3>Whynot? mih</h3>
             <span>2023, Dec - 2024, Feb</span>
             <span>Full Time Remote</span>
