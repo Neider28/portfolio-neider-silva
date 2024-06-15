@@ -10,6 +10,7 @@
 }
 
 .experience_container_content {
+  width: 100%;
   display: flex;
   margin-top: 50px;
   gap: 30px;
@@ -37,9 +38,9 @@
   }
 }
 
-.experience_card div {
+.experience_card .experience_card_content {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
@@ -47,20 +48,51 @@
   box-shadow: var(--shadow-high);
 }
 
-.experience_card span {
-  font-size: var(--font-size-small);
-  color: var(--color-light);
-  margin-top: 5px;
+.experience_card_item {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid var(--color-light);
 }
 
-.experience_card span:nth-child(3) {
-  color: var(--color-secondary);
+.experience_card_item:nth-child(even) span {
+  text-align: end;
+}
+
+.experience_card_item:first-child {
+  padding-top: 0;
+}
+
+.experience_card_item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.experience_card_item .span_position {
+  font-size: var(--font-size-h3-1);
   font-weight: 600;
+  color: var(--color-light);
 }
 
-.experience_card div p {
-  font-size: var(--font-size-p-1);
-  margin-top: 10px;
+.experience_card_item .span_company {
+  font-size: var(--font-size-p-2);
+  font-weight: 500;
+  color: var(--color-light);
+}
+
+.experience_card_item .span_type {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  color: var(--color-light);
+}
+
+.experience_card_item .span_time {
+  font-size: var(--font-size-small);
+  font-weight: 500;
   color: var(--color-light);
 }
 
@@ -73,7 +105,7 @@
 
 @media (min-width: 700px) {
   .experience_card {
-    width: 250px;
+    width: 50%;
   }
 
   .experience_container_image {
@@ -82,13 +114,8 @@
   }
 }
 
-@media (min-width: 768px) {
-  .experience_container_content {
-    width: 540px;
-    margin: 0 auto;
-    margin-top: 50px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
+@media (min-width: 1024px) {
+  .experience_card {
+    width: 600px;
   }
 }
