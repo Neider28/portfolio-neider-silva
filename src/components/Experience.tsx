@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import { Fade } from 'react-awesome-reveal'
-import { Icon } from '@iconify/react'
 import rolls_royce from '@/assets/experience/rolls-royce-3.png'
 import styles from '@/css/Experience.module.css'
 
