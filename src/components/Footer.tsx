@@ -4,6 +4,8 @@ import { Icon } from '@iconify/react';
 import styles from '@/css/Footer.module.css'
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <div className={styles.footer_content}>
@@ -16,7 +18,7 @@ export default function Footer() {
           <p><Icon icon={'twemoji:flag-colombia'} className={styles.colombia_icon} /></p>
         </div>
       </div>
-      <p>© Copyright 2024. Made by Neider Silva.</p>
+      <p>© Copyright {year}. Made by Neider Silva.</p>
     </footer>
   )
 }
