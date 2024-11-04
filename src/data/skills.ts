@@ -19,6 +19,8 @@ export default {
     {icon: "simple-icons:passport", name: "Passport.js"},
     {icon: "simple-icons:strapi", name: "Strapi"},
     {icon: "fa-brands:java", name: "Java"},
+    {icon: "devicon-plain:csharp", name: "C#"},
+    {icon: "devicon-plain:dot-net-wordmark", name: ".NET"},
     {icon: "simple-icons:rabbitmq", name: "RabbitMQ"},
     {icon: "carbon:microservices-2", name: "Microservices"},
     {icon: "carbon:sql", name: "SQL"},
